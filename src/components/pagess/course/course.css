@@ -1,68 +1,32 @@
 .course {
     padding-top: 100px;
+
 }
 
 .course .items {
-    background-color: #fff;
-    padding: 30px;
+    background-color: rgba(140, 215, 236, 0.2);
+    padding: 10px;
     text-align: center;
+    border-radius: 20px;
 }
 
 .course .text {
-    margin-left: 15px;
+    margin-top: 4px;
+    margin-left: 5px;
     text-align: left;
 }
 
 .course img {
     width: 100%;
     height: 100%;
-}
-
-.course .text {
-    padding: 0 30px;
-}
-
-
-.course {
-    padding: 50px 0;
-}
-
-.coursesCard .items {
-    background-color: #fff;
-    padding: 30px;
-    text-align: center;
-}
-
-.coursesCard .img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #1eb2a6;
-    padding: 15px;
-}
-
-.coursesCard img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.coursesCard .text {
-    margin-left: 15px;
-    text-align: left;
-}
-
-.coursesCard .text h1 {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 45px;
+    border-radius: 20px;
 }
 
 .course .text h1 {
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 30px;
-    margin: 20px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 10px 0;
     transition: 0.5s;
 }
 
@@ -74,6 +38,7 @@
 
 .course p {
     color: grey;
+    font-size: 12px;
 }
 
 .text .details .dimg img {
@@ -87,6 +52,11 @@
     display: flex;
     align-items: center;
     color: grey;
+
+}
+
+.text .details .para {
+    padding-right: 20px;
 }
 
 .text .details span {
@@ -104,4 +74,38 @@
 .text h3 {
     font-weight: 500;
     color: #1eb2a6;
+}
+
+.course .container .not-available {
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* Adjust according to your layout */
+}
+
+/* .course .container .not-available:hover {
+    color: white;
+    position: relative;
+    overflow: hidden;
+} */
+
+.course .container .not-available::after {
+    content: "come in soon  ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50% 39%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    border-radius: 10%;
+    /* Adjust size as needed */
+    background-color: aqua;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.container .not-available:hover::after {
+    opacity: 1;
 }

@@ -6,10 +6,16 @@ import "./course.css"
 const Course = () => {
     return (
         <>
-            <section className='course padding'>
+            <section className='course'>
+                <h2>Our Online Courses</h2>
                 <div className='container grid2'>
+
                     <CourseCard />
+
                 </div>
+
+
+
             </section>
         </>
     )

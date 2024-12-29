@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, YouTube, ArrowRightAlt } from "@mui/icons-material"
+import { Facebook, Twitter, Instagram, YouTube, ArrowRightAlt, CloudOutlined, FavoriteBorder, Public, PersonOutlined } from "@mui/icons-material"
 
 export const social = [
     {
@@ -29,10 +29,10 @@ export const navlink = [
         url: "/about",
         text: "About",
     },
-    // {
-    //     url: "/course",
-    //     text: "Course",
-    // },
+    {
+        url: "/team",
+        text: "Team",
+    },
     // {
     //     url: "/portfolio",
     //     text: "Portfolio",
@@ -174,6 +174,7 @@ export const coursesCard = [
         desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         priceAll: "$100 All Course",
         pricePer: "$15 per month",
+        available: true
     },
     {
         id: 2,
@@ -185,10 +186,11 @@ export const coursesCard = [
                 totalTime: "30 lectures (125 hrs)",
             },
         ],
-        coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+        coursesName: "Enhancing Adobe Photoshop",
         desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         priceAll: "$200 All Course",
         pricePer: "$25 per month",
+        available: false
     },
     {
         id: 3,
@@ -200,10 +202,11 @@ export const coursesCard = [
                 totalTime: "50 lectures (50 hrs)",
             },
         ],
-        coursesName: "HTML, CSS, and Javascript for Web Developers",
+        coursesName: "HTML, CSS, and Javascript",
         desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         priceAll: "$50 All Course",
         pricePer: "$5 per month",
+        available: false
     },
     {
         id: 4,
@@ -219,6 +222,7 @@ export const coursesCard = [
         desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         priceAll: "$100 All Course",
         pricePer: "$15 per month",
+        available: false
     },
     {
         id: 5,
@@ -230,10 +234,11 @@ export const coursesCard = [
                 totalTime: "30 lectures (125 hrs)",
             },
         ],
-        coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+        coursesName: "Enhancing Adobe Photoshop",
         desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         priceAll: "$200 All Course",
         pricePer: "$25 per month",
+        available: false
     },
     {
         id: 6,
@@ -245,94 +250,65 @@ export const coursesCard = [
                 totalTime: "50 lectures (50 hrs)",
             },
         ],
-        coursesName: "HTML, CSS, and Javascript for Web Developers",
+        coursesName: "HTML, CSS, and Javascript ",
         desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         priceAll: "$50 All Course",
         pricePer: "$5 per month",
+        available: false
     },
 
-    // {
-    //   id: 4,
-    //   cover: "../images/courses/c4.png",
-    //   coursesName: "Introducing to Programming with WordPress",
-    //   courTeacher: [
-    //     {
-    //       dcover: "./images/back.webp",
-    //       name: "by Prabin Thapa Mager",
-    //       totalTime: "20 lectures (20 hrs)",
-    //     },
-    //   ],
-    //   priceAll: "$30 All Course",
-    //   pricePer: "$3 per month",
-    // },
-    // {
-    //   id: 5,
-    //   cover: "../images/courses/c5.png",
-    //   coursesName: "Introducing to Programming with ReactJS",
-    //   courTeacher: [
-    //     {
-    //       dcover: "./images/back.webp",
-    //       name: "by Sunil Bishowkaram",
-    //       totalTime: "100 lectures (150 hrs)",
-    //     },
-    //   ],
-    //   priceAll: "$300 All Course",
-    //   pricePer: "$30 per month",
-    // },
-    // {
-    //   id: 6,
-    //   cover: "../images/courses/c6.png",
-    //   coursesName: "Learn Frontend Programming Language",
-    //   courTeacher: [
-    //     {
-    //       dcover: "./images/back.webp",
-    //       name: "by Sunil Bishowkaram",
-    //       totalTime: "200 lectures (300 hrs)",
-    //     },
-    //   ],
-    //   priceAll: "$500 All Course",
-    //   pricePer: "$80 per month",
-    // },
-    // {
-    //   id: 7,
-    //   cover: "../images/courses/c7.png",
-    //   coursesName: "Introducing to with HTML / CSS",
-    //   courTeacher: [
-    //     {
-    //       dcover: "./images/back.webp",
-    //       name: "by Price",
-    //       totalTime: "20 lectures (50 hrs)",
-    //     },
-    //   ],
-    //   priceAll: "$20 All Course",
-    //   pricePer: "$2 per month",
-    // },
-    // {
-    //   id: 8,
-    //   cover: "../images/courses/c8.png",
-    //   coursesName: "Introducing to with JAVA",
-    //   courTeacher: [
-    //     {
-    //       dcover: "./images/back.webp",
-    //       name: "by Petter",
-    //       totalTime: "80 lectures (200 hrs)",
-    //     },
-    //   ],
-    //   priceAll: "$200 All Course",
-    //   pricePer: "$40 per month",
-    // },
-    // {
-    //   id: 9,
-    //   cover: "../images/courses/c9.png",
-    //   coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-    //   courTeacher: [
-    //     {
-    //       dcover: "./images/back.webp",
-    //       name: "by Petter",
-    //       totalTime: "50 lectures (50 hrs)",
-    //     },
-    //   ],
-    //   priceAll: "$20 All Course",
-    //   pricePer: "$3 per month",
-    // },
+]
+
+export const project = [
+    {
+        id: 1,
+        icon: <CloudOutlined />,
+        num: "89",
+        title: "HAPPY CLIENTS",
+    },
+    {
+        id: 2,
+        icon: <FavoriteBorder />,
+        num: "231",
+        title: "PROJECTS COMPLEATED",
+    },
+    {
+        id: 3,
+        icon: <Public />,
+        num: "108",
+        title: "FILES DOWNLOADED",
+    },
+    {
+        id: 4,
+        icon: <PersonOutlined />,
+        num: "1446",
+        title: "LIENS OF CODE",
+    },
+]
+
+export const faq = [
+    {
+        title: "How to Enroll This Online Courses?",
+        desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "Where It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "How It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "How to Enroll This Online Courses?",
+        desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "Where It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "How It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
 ]

@@ -1,6 +1,6 @@
 import React from "react"
 import { services } from "../data"
-import Heading from "../common/heading/Heading"
+
 
 
 export const Services = () => {

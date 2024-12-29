@@ -106,6 +106,7 @@ header ul li a:hover {
     .moble-nav div {
         display: flex;
         flex-direction: column;
+
     }
 
     .moble-nav ul.list {

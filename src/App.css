@@ -193,13 +193,23 @@ button:hover {
 
   }
 
+
   .services .grid3 {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .services {
+    height: auto;
+    margin-top: 400px;
+    background-color: #dffcfa;
+  }
 }
 
 /*---------services-------------*/
+
+/*---------course-------------*/
+
 
 .grid2 {
   display: grid;
@@ -214,9 +224,94 @@ button:hover {
   border: 2px solid #1eb2a6;
   width: 100%;
   transition: 0.5s;
+  border-radius: 20px;
 }
 
 .outline-btn:hover {
   background-color: #1eb2a6;
   color: #fff;
 }
+
+.course h2 {
+  padding-left: 40%;
+  padding-bottom: 60px;
+  font-size: 25px;
+  color: #dc8c29;
+  font-weight: 600;
+  font-family: var(--display-head-font);
+}
+
+@media screen and (max-width:768px) {
+
+
+  .course h2 {
+    padding-left: 0;
+    width: 90%;
+    margin: auto;
+
+  }
+
+  .course .grid2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*---------course-------------*/
+/*---------counter-------------*/
+
+.grid4 {
+  grid-template-columns: repeat(4, 1fr);
+  height: 50vh;
+  place-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width:768px) {
+
+  .counter .grid4 {
+    grid-template-columns: repeat(2, 1fr);
+    height: 50vh;
+    place-items: center;
+    text-align: center;
+  }
+}
+
+
+
+/*---------counter-------------*/
+
+/*--------------faq-------------*/
+.faq .container {
+  max-width: 70%;
+  border-radius: 5px;
+}
+
+.faq .box {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.faq button {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.faq h2 {
+  font-weight: 500;
+}
+
+.faq p {
+  padding: 20px;
+}
+
+.faq .accordion:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+/*--------------faq-------------*/

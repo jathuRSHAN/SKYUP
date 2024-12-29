@@ -7,7 +7,8 @@ const CourseCard = () => {
     return (
         <>
             {coursesCard.map((val) => (
-                <div className='items shadow'>
+
+                <div className={val.available ? "items shadow" : "shadow items not-available"}>
                     <div className='img'>
                         <img src={val.cover} alt='' />
                     </div>
@@ -22,8 +23,9 @@ const CourseCard = () => {
                                         <div className='para'>
                                             <h4>{details.name}</h4>
                                         </div>
+                                        <span>{details.totalTime}</span>
                                     </div>
-                                    <span>{details.totalTime}</span>
+
                                 </>
                             ))}
                         </div>

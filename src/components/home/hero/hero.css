@@ -50,9 +50,7 @@ P {
 }
 
 @media screen and (max-width: 768px) {
-    .margin {
-        height: 10vh;
-    }
+
 
     .hero #heading h1 {
         color: #090909;
