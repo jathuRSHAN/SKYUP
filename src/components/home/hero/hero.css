@@ -67,3 +67,35 @@ P {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 468px) {
+
+
+    .hero #heading {
+        color: #090909;
+        /* font-size: 20px; */
+        padding-top: 110px;
+    }
+
+    .hero #heading h1 {
+
+        font-size: 20px;
+
+    }
+
+    .hero #heading h3 {
+
+        font-size: 20px;
+
+    }
+
+    /* .hero {
+        background-position: right;
+        padding-top: 50%;
+        height: 100vh;
+    }
+
+    .hero .row {
+        width: 100%;
+    } */
+}
