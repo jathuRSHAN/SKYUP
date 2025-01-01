@@ -56,11 +56,11 @@ const Footer = () => {
                         <ul>
                             <li>
                                 <i className='fa fa-map'></i>
-                                203 Fake St. Mountain View, San Francisco, California, USA
+                                no- 333.address for , trincomalee, srilanka
                             </li>
                             <li>
                                 <i className='fa fa-phone-alt'></i>
-                                +2 392 3929 210
+                                +94 77 123 4567
                             </li>
                             <li>
                                 <i className='fa fa-paper-plane'></i>
@@ -72,7 +72,7 @@ const Footer = () => {
             </footer>
             <div className='legal'>
                 <p>
-                    Copyright ©2022 All rights reserved | This template is made with  by GorkhCoder
+                    Copyright ©2025 All rights reserved | This template is made with  by jathu
                 </p>
             </div>
         </>
