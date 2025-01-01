@@ -17,6 +17,9 @@ export const Head = () => {
                         ))}
                     </div>
                 </div>
+                <div className="moble">
+                    <h3>ONLINE  EDUCATION & LEARNING</h3>
+                </div>
             </section>
         </>
     )
