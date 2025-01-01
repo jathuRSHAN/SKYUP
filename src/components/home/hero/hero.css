@@ -73,7 +73,7 @@ P {
 
 
     .hero #heading {
-        color: #090909;
+        color: #ffffff;
         /* font-size: 20px; */
         padding-top: 110px;
     }
@@ -81,18 +81,24 @@ P {
     .hero #heading h1 {
 
         font-size: 20px;
+        color: #ffffff;
 
     }
 
     .hero #heading h3 {
 
         font-size: 20px;
+        color: #ffffff;
 
     }
 
     .button button {
         background-color: var(--secountary-color);
         font-size: 10px;
+    }
+
+    .hero p {
+        color: #ffffff;
     }
 
     /* .hero {

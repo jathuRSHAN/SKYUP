@@ -127,10 +127,10 @@ header ul li a:hover {
 
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 450px) {
 
     .start {
-        padding: 10px 50px 10px 10px;
+        padding: 20px 50px 10px 20px;
     }
 
     .start .button {
@@ -138,11 +138,11 @@ header ul li a:hover {
     }
 
     .toggle button {
-        padding: 45px 30px;
+        padding: 3% 30px;
         background: none;
         color: black;
         border: none;
-        margin: 90px 20px 0 0;
+        margin: 95% 20px 0 0;
     }
 
     header {

@@ -115,7 +115,7 @@ li {
 
 button {
   padding: 17px 30px;
-  background-color: #ffff;
+  /* background-color: #ffff; */
   color: var(--primary-color);
   font-weight: 800;
   font-size: 20px;
