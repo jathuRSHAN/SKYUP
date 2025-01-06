@@ -22,13 +22,12 @@ function Header() {
                     </div>
                     <div className="start">
                         <div className="button">Plan for individuals</div>
-                        <div className='toggle'>
-                            <button onClick={() => (setclik(!click))}><i ><Menu /></i></button>
-                        </div>
                     </div>
-
-
+                    <div className='toggle'>
+                        <button onClick={() => (setclik(!click))}><i ><Menu /></i></button>
+                    </div>
                 </nav>
+
             </header>
         </>
     )
